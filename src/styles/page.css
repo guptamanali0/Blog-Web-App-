@@ -14,6 +14,10 @@
     height: 130rem;
     width: 100%;
 }
+.main2{
+    margin-left:95px;
+    width: 80%;
+}
 
 .two{
     text-align: center;
@@ -48,6 +52,21 @@
     column-gap: 10px;
     row-gap: -1px;
 }
+.six{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-template-rows: 120px 200px;
+    column-gap: 8px;
+    row-gap: 3px;
+}
+.seven{
+    margin-top: 10px;
+    display: grid;
+    background-color: burlywood;
+    grid-template-rows: 170px 170px 170px 170px ;
+    grid-template-columns: 500px 100px
+}
 
 #one{
     width: 100%;
@@ -76,5 +95,89 @@
     height: 8rem;
     border-radius: 1%;
 
+}
+#four{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+#five{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+#six{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 16.5rem;
+    height: 100%;
+    border-radius: 1%;
+}
+#seven{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 80%;
+}
+
+#eight{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: 80%;
+    border-radius: 1%;
+}
+
+#nine{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 16rem;
+    height: 80%;
+    border-radius: 1%;
+}
+
+#ten{
+    display: flex;
+}
+#eleven{
+    font-weight: bold;
+}
+
+#tweleve{
+    color: gray;
+    margin-left: 15px;
+}
+
+#thirteen{
+grid-row-start: 1;
+grid-row-end: 2;
+width: 50%;
+margin-top: 10px;
+
+}
+#fourteen{
+    font-weight: bold;
+    font-size: 30px;
+    height: 10px;
+    margin-bottom: 30px;
+    border-radius: 1%;
 }
 

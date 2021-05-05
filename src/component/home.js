@@ -29,21 +29,13 @@ import Logo1 from './../images/image3.jpg'
         </BrowserRouter>
 
 
-
         <div className="five">
         <img src={Logo1} id="one"/>
         <img src={Logo1} id="two"/>
         <img src={Logo1} id="three"/>
-        <h1 style={{backgroundColor:"pink"}}>rahul</h1>
-        <h1>mamna</h1>
         </div>
 
 
-        <h1>bbbb</h1>
-        <h1>bbbb</h1>
-        <h1>bbbb</h1>
-        <img src={Logo1} />
-        <h1 style={{color:"brown"}}>Hello ,analio</h1>
 
 
 </div>
