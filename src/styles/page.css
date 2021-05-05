@@ -4,14 +4,14 @@
     margin-right: 180px;
     border: 1px solid black;
     background-color: aqua;
-    height: 130rem
+    height: 150rem
 }
 
 .main1{
     margin: auto;
     border: 1px solid black;
     background-color: palegreen;
-    height: 130rem;
+    height: 150rem;
     width: 100%;
 }
 .main2{
@@ -64,9 +64,19 @@
     margin-top: 10px;
     display: grid;
     background-color: burlywood;
-    grid-template-rows: 170px 170px 170px 170px ;
-    grid-template-columns: 500px 100px
+    grid-template-rows: 200px 200px 200px 200px ;
+    grid-template-columns: 200px 250px 50px;
+    height: 820px;
 }
+.eight{
+    display: grid;
+    background-color: tomato;
+    margin-top: 40px;
+    grid-template-columns: 550px 80px 140px 290px;
+    grid-template-rows: 130px 110px 110px 110px;
+}
+
+
 
 #one{
     width: 100%;
@@ -169,10 +179,12 @@
 #thirteen{
 grid-row-start: 1;
 grid-row-end: 2;
-width: 50%;
-margin-top: 10px;
-
+width: 100%;
+margin-top: 50px;
+margin-left: 10px;
+height: 80%;
 }
+
 #fourteen{
     font-weight: bold;
     font-size: 30px;
@@ -180,4 +192,184 @@ margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 1%;
 }
+#fifteen{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 100%;
+}
+#sixteen{
+    display: flex;
+}
+#seventeen{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    margin-top: 55px;
+    margin-left: 10px;
+    height: 80%;
+}
+#eighteen{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 80%;
 
+}
+#ninteen{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+#twenty{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+#twentyone{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: yellow;
+    height: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+#twentytwo{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+#twentythree{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#twentyfour{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    border: 1px solid gray;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+#twentyfive{
+    margin-top: 250px;
+    text-align: center;
+}
+#twentyseven{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+#twentysix{
+    height: 2%;
+    width: 80%;
+    margin-right: 50px;
+height: 100%;
+margin-top: 60px;
+border-radius: 1%;
+margin-left: 48px;
+}
+#twentyeight{
+    grid-row-start: 1;
+    grid-row-end: 5;
+margin-left: 10px;
+margin-bottom: 10px;
+    margin-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: aqua;
+    margin-right: 120px;
+    width: 95%;
+    height: 98%;
+}
+
+#twentynine{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: thistle;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#thirty{
+    background-color: aquamarine;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 20px;
+}
+
+#thirtyone{
+    background-color: red;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 10px;
+}
+
+#thirtytwo{
+    background-color: green;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 10px;
+}
+#thirtythree{
+    width: 50%;
+    margin-top: 10px;
+}
+#thirtyfour{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: yellow;
+}

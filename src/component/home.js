@@ -37,7 +37,6 @@ import Logo1 from './../images/image3.jpg'
 
 
 
-
 </div>
 </div>
         </>
