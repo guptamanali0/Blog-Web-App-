@@ -150,7 +150,39 @@ return(
 </div>
 </div>
 
+</div>
+<h1>Latest Stories</h1>
+<div className="nine">
 
+<div id="fourtythree">
+<h2>{item.heading}</h2>
+<p>{item.bdescription}</p>
+<div id="ten">
+<p id="eleven">{item.tech}</p>
+<p id="tweleve">{item.tdate}</p>
+</div>
+
+
+</div>
+
+
+<div id="fourtyfour">
+<h2>{item.heading}</h2>
+<p>{item.bdescription}</p>
+<div id="ten">
+<p id="eleven">{item.style}</p>
+<p id="tweleve">{item.adate}</p>
+</div>
+</div>
+
+<div id="fourtyfive">
+<h2>{item.heading}</h2>
+<p>{item.bdescription}</p>
+<div id="ten">
+<p id="eleven">{item.tech}</p>
+<p id="tweleve">{item.adate}</p>
+</div>
+</div>
 
 </div>
 
