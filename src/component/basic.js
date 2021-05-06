@@ -115,20 +115,42 @@ return(
 
 <div id="thirty">
 <img src={Logo1} id="thirtythree"/>
+</div>
 <div id="thirtyfour">
-manali gupta
+<h4>{item.heading}</h4>
+<div id="thirtyeight">
+<p id="thirtynine">{item.job}</p>
+<p id="fourty">{item.date}</p>
+</div>
 </div>
 
-</div>
 
 <div id="thirtyone">
-<h1>nkhkjh</h1>
+<img src={Logo1} id="thirtyfive"/>
 </div>
+<div id="fourtyone">
+<h4>{item.heading}</h4>
+<div id="thirtyeight">
+<p id="thirtynine">{item.job}</p>
+<p id="fourty">{item.date}</p>
+</div>
+</div>
+
+
 
 
 <div id="thirtytwo">
-<h1>nkhkjh</h1>
+<img src={Logo1} id="thirtyseven"/>
 </div>
+<div id="fourtytwo">
+<h4>{item.heading}</h4>
+<div id="thirtyeight">
+<p id="thirtynine">{item.job}</p>
+<p id="fourty">{item.date}</p>
+</div>
+</div>
+
+
 
 </div>
 
