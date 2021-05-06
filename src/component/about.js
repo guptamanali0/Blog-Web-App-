@@ -1,12 +1,14 @@
 import React from 'react'
 import {NavLink,Link} from 'react-router-dom'
-import {BrowserRouter} from 'react-router-dom'
+import Home from './home.js';
+import Copy from './copy.js';
 
-function Bollywood(){
+
+function About(){
     return(
         <>
-        <BrowserRouter>
-        <div className="three">
+        <div className="main1">
+            <div className="three">
         <NavLink to="/home" style={{color:"black"}} exact>Home</NavLink>
         <NavLink to="/bollywood"  style={{color:"black"}} exact>Bollywood</NavLink>
         <NavLink to="/technology"  style={{color:"black"}}>Technology</NavLink>
@@ -14,9 +16,10 @@ function Bollywood(){
         <NavLink to="/fitness"  style={{color:"black"}}>Fitness</NavLink>
         <NavLink to="/food"  style={{color:"black"}}>Food</NavLink>
         </div>
-        </BrowserRouter>
-        <h1>bjg</h1>
+</div>
+<h1>.bvhvhfyu</h1>
         </>
     )
 }
-export default Bollywood;
+
+export default About;
