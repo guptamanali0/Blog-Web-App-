@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {NavLink,Link} from 'react-router-dom'
 import {BrowserRouter} from 'react-router-dom'
 import Home from './home.js';
-import Coursejson from './../course.json'
+import Coursejson from '../course.json'
 import Logo1 from './../images/image3.jpg'
-import Heading from './heading.js'
+import Bollywood from './bollywood.js';
 class Copy extends Component{
   state={
     courselist:Coursejson

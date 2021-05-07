@@ -66,6 +66,7 @@ return(
  <p id="eleven">{item.job}</p>
  <p id="tweleve">10 Min read</p>
  </div>
+
  </div>
 
  <img id="six" src={Logo1}/>

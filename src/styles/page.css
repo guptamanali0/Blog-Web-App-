@@ -7,13 +7,29 @@
 
 .main1{
     margin: auto;
-    border: 1px solid black;
     height: 165rem;
     width: 100%;
 }
 .main2{
     margin-left:95px;
     width: 80%;
+}
+.main3{
+    margin: auto;
+    height: 50rem;
+    width: 80%;
+
+}
+.main4{
+    margin-left: 180px;
+    margin-right: 180px;
+    height: auto;
+}
+.main5{
+    background-color: antiquewhite;
+    height: 500px;
+    margin: auto;
+    width: 500px;
 }
 
 .two{
@@ -26,7 +42,6 @@
     width: 60%;
     grid-template-columns: repeat(6,auto);
    font-size: large;
-   color: black;
 }
 
 .four{
@@ -479,4 +494,36 @@ margin-bottom: 10px;
     color: red;
     position: relative;
     right: 455px;
+}
+#fourtyeight{
+    display: flex;
+    margin-left: 100px;
+
+}
+
+#fourtynine{
+    height: 30px;
+    border: 2px solid #87CEFA;
+    color: #87CEFA;
+    font-weight: bold;
+    position: relative;
+    left: 840px;
+}
+
+#fifty{
+    width: 100%;
+    height: 200px;
+}
+#fiftyone{
+    background-color: teal;
+    display: flex;
+}
+#fiftytwo{
+    height: 60px;
+}
+#fiftythree{
+        display: flex;
+        position: relative;
+        bottom: 30px;
+
 }
