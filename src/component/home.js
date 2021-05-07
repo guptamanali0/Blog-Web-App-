@@ -22,7 +22,7 @@ return(
           <Route>
         <Link to="/" id="fourtysix">Home</Link>
         <Link to="/bollywoodcopy" id="fourtysix">Bollywood</Link>
-        <Link to="/about" id="fourtysix">Technology</Link>
+        <Link to="/technologycopy" id="fourtysix">Technology</Link>
         <Link to="/Course" id="fourtysix">Hollywood</Link>
         <Link to="/about" id="fourtysix">Fitness</Link>
         <Link to="/about" id="fourtysix">Food</Link>
@@ -61,9 +61,10 @@ return(
  <div id="eight">
  <h3>{item.subheading}</h3>
  <p>{item.description}</p>
+ 
  <div id="ten">
  <p id="eleven">{item.job}</p>
- <p id="tweleve">{item.date}</p>
+ <p id="tweleve">10 Min read</p>
  </div>
  </div>
 
