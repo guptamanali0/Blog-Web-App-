@@ -2,8 +2,10 @@ import React from 'react'
 import './../styles/page.css'
 import Logo1 from './../images/image3.jpg'
 import {NavLink,Link} from 'react-router-dom'
-import {BrowserRouter} from 'react-router-dom'
-
+import {BrowserRouter,Route} from 'react-router-dom'
+import About from './about.js'
+import Course from './course.js'
+import Copy from './copy.js'
 function Home(props){
   console.log(props)
 return(
@@ -15,22 +17,27 @@ return(
             <h1>The Siren</h1>
             </div>
 
-          <BrowserRouter>
+  
         <div className="three">
-        <NavLink to="/home" style={{color:"black"}} exact>Home</NavLink>
-        <NavLink to="/bollywood"  style={{color:"black"}}exact>Bollywood</NavLink>
-        <NavLink to="/technology"  style={{color:"black"}}>Technology</NavLink>
-        <NavLink to="/hollywood"  style={{color:"black"}}>Hollywood</NavLink>
-        <NavLink to="/fitness"  style={{color:"black"}}>Fitness</NavLink>
-        <NavLink to="/food"  style={{color:"black"}}>Food</NavLink>
+          <Route>
+        <Link to="/bollywood" id="fourtysix">Home</Link>
+        <Link to="/bollywood" id="fourtysix">Bollywood</Link>
+        <Link to="/about" id="fourtysix">Technology</Link>
+        <Link to="/Course" id="fourtysix">Hollywood</Link>
+        <Link to="/about" id="fourtysix">Fitness</Link>
+        <Link to="/about" id="fourtysix">Food</Link>
+        </Route>
         </div>
-        </BrowserRouter>
         
+
+        <Link to="/bollywood">
         <div className="five">
         <img src={Logo1} id="one"/>
+       
         <img src={Logo1} id="two"/>
         <img src={Logo1} id="three"/>
         </div>
+        </Link>
  
 {
  props.courselist.map(item=>(
@@ -206,7 +213,9 @@ return(
 <p id="eleven">{item.tech}</p>
 <p id="tweleve">{item.adate}</p>
 </div>
+<Link to="/bollywood" id="fourtyseven">Load More</Link>
 </div>
+
 
 </div>
 
