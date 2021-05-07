@@ -20,8 +20,8 @@ return(
   
         <div className="three">
           <Route>
-        <Link to="/bollywood" id="fourtysix">Home</Link>
-        <Link to="/bollywood" id="fourtysix">Bollywood</Link>
+        <Link to="/" id="fourtysix">Home</Link>
+        <Link to="/bollywoodcopy" id="fourtysix">Bollywood</Link>
         <Link to="/about" id="fourtysix">Technology</Link>
         <Link to="/Course" id="fourtysix">Hollywood</Link>
         <Link to="/about" id="fourtysix">Fitness</Link>
@@ -29,8 +29,9 @@ return(
         </Route>
         </div>
         
-
-        <Link to="/bollywood">
+        <div className="main1">
+          <div className="main">
+        <Link to="/bollywoodcopy">
         <div className="five">
         <img src={Logo1} id="one"/>
        
@@ -38,8 +39,7 @@ return(
         <img src={Logo1} id="three"/>
         </div>
         </Link>
- 
-{
+ {
  props.courselist.map(item=>(
  <>
 <div className="main2">
@@ -213,7 +213,7 @@ return(
 <p id="eleven">{item.tech}</p>
 <p id="tweleve">{item.adate}</p>
 </div>
-<Link to="/bollywood" id="fourtyseven">Load More</Link>
+<Link to="/bollywoodcopy" id="fourtyseven">Load More</Link>
 </div>
 
 
@@ -224,7 +224,8 @@ return(
 ))
 
 }
-
+</div>
+</div>
 </>
 );
 }
