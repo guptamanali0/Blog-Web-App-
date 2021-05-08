@@ -10,6 +10,7 @@ import Course from './course.js';
 import About  from './about.js';
 import Bollywoodcopy  from './bollywoodcopy.js';
 import Technologycopy  from './technologycopy.js';
+import Hollywoodcopy  from './hollywoodcopy.js';
 class App extends Component{
   state={
     courselist:Coursejson
@@ -24,6 +25,7 @@ class App extends Component{
    <Route path="/" component={Copy} exact/>
    <Route path="/bollywoodcopy" component={Bollywoodcopy} exact />
    <Route path="/technologycopy" component={Technologycopy} exact />
+   <Route path="/hollywoodcopy" component={Hollywoodcopy} exact/>
    <Route path="/course" component={Course} exact/>
    </BrowserRouter>
     

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Coursejson from '../course.json'
-import Bollywood from './bollywood.js';
+import Hollywood from './hollywood.js';
 class Copy extends Component{
   state={
     courselist:Coursejson
@@ -9,7 +9,7 @@ class Copy extends Component{
     render(){
       return(
         <>   
-        <Bollywood  courselist={this.state.courselist}/>
+        <Hollywood  courselist={this.state.courselist}/>
 
         </>
       )

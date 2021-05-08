@@ -23,7 +23,7 @@ return(
         <Link to="/" id="fourtysix">Home</Link>
         <Link to="/bollywoodcopy" id="fourtysix">Bollywood</Link>
         <Link to="/technologycopy" id="fourtysix">Technology</Link>
-        <Link to="/Course" id="fourtysix">Hollywood</Link>
+        <Link to="/hollywoodcopy" id="fourtysix">Hollywood</Link>
         <Link to="/about" id="fourtysix">Fitness</Link>
         <Link to="/about" id="fourtysix">Food</Link>
         </Route>
@@ -211,6 +211,7 @@ return(
 <div id="fourtyfive">
 <h2>{item.heading}</h2>
 <p>{item.bdescription}</p>
+
 <div id="ten">
 <p id="eleven">{item.tech}</p>
 <p id="tweleve">{item.adate}</p>
