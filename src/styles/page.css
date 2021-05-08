@@ -776,3 +776,10 @@ grid-column-end: 2;
     right: 140px;
 
 }
+#nintytwo{
+    display: flex;
+    font-size: 10px;
+    position: relative;
+    top: 75px;
+    right: 110px;
+}

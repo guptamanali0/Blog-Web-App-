@@ -15,6 +15,19 @@ return(
  {
  props.courselist.map(item=>(
  <>
+  <div className="two">
+            <h1>The Siren</h1>
+            </div>
+   <div className="three">
+          <Route>
+        <Link to="/" id="fourtysix">Home</Link>
+        <Link to="/bollywoodcopy" id="fourtysix">Bollywood</Link>
+        <Link to="/technologycopy" id="fourtysix">Technology</Link>
+        <Link to="/hollywoodcopy" id="fourtysix">Hollywood</Link>
+        <Link to="/fitnesscopy" id="fourtysix">Fitness</Link>
+        <Link to="/foodcopy" id="fourtysix">Food</Link>
+        </Route>
+        </div>
  <div className="main4">
 <div className="main3">
 
