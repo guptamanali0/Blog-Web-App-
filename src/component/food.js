@@ -203,7 +203,7 @@ return(
 
 <div id="fourtythree">
 <h2>{item.fruitheading}</h2>
-<p>{item.bdescription}</p>
+<p>{item.blogdiscription}</p>
 <div id="ten">
 <p id="eleven">{item.update}</p>
 <p id="tweleve">{item.tdate}</p>
@@ -214,8 +214,8 @@ return(
 
 
 <div id="fourtyfour">
-<h2>{item.heading}</h2>
-<p>{item.bdescription}</p>
+<h2>{item.fruitheading}</h2>
+<p>{item.blogdiscription}</p>
 <div id="ten">
 <p id="eleven">{item.update}</p>
 <p id="tweleve">{item.adate}</p>
@@ -223,8 +223,8 @@ return(
 </div>
 
 <div id="fourtyfive">
-<h2>{item.heading}</h2>
-<p>{item.bdescription}</p>
+<h2>{item.fruitheading}</h2>
+<p>{item.blogdiscription}</p>
 
 <div id="ten">
 <p id="eleven">{item.update}</p>

@@ -12,6 +12,7 @@ import Bollywoodcopy  from './bollywoodcopy.js';
 import Technologycopy  from './technologycopy.js';
 import Hollywoodcopy  from './hollywoodcopy.js';
 import Foodcopy  from './foodcopy.js';
+import Fitnesscopy  from './fitnesscopy.js';
 class App extends Component{
   state={
     courselist:Coursejson
@@ -28,7 +29,7 @@ class App extends Component{
    <Route path="/technologycopy" component={Technologycopy} exact />
    <Route path="/hollywoodcopy" component={Hollywoodcopy} exact/>
    <Route path="/foodcopy" component={Foodcopy} exact/>
-   <Route path="/course" component={Course} exact/>
+   <Route path="/fitnesscopy" component={Fitnesscopy} exact/>
    </BrowserRouter>
     
 

@@ -24,7 +24,7 @@ return(
         <Link to="/bollywoodcopy" id="fourtysix">Bollywood</Link>
         <Link to="/technologycopy" id="fourtysix">Technology</Link>
         <Link to="/hollywoodcopy" id="fourtysix">Hollywood</Link>
-        <Link to="/about" id="fourtysix">Fitness</Link>
+        <Link to="/fitnesscopy" id="fourtysix">Fitness</Link>
         <Link to="/foodcopy" id="fourtysix">Food</Link>
         </Route>
         </div>
