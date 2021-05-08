@@ -10,6 +10,7 @@ class Copy extends Component{
       return(
         <>   
         <Bollywood  courselist={this.state.courselist}/>
+        <Hollywood  courselist={this.state.courselist}/>
 
         </>
       )

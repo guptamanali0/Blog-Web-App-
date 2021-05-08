@@ -26,10 +26,25 @@
     height: auto;
 }
 .main5{
-    background-color: antiquewhite;
     height: 500px;
     margin: auto;
-    width: 500px;
+    width: 450px;
+}
+.main6{
+    width: 70%;
+    margin-top: 370px;
+    height: auto;
+    margin-left: 120px;
+}
+.main7{
+    margin: 0 auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+grid-template-columns: repeat(3,250px);
+grid-template-rows: repeat(1,25rem);
+column-gap: 70px;
+
 }
 
 .two{
@@ -89,6 +104,9 @@
     height: 20%;
 }
 
+#nav{
+    color: white;
+}
 
 
 #one{
@@ -96,7 +114,7 @@
     height: 90%;
     grid-row-start: 1;
     grid-row-end: 3;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 
 #two{
@@ -106,7 +124,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
     height: 9rem;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 
 #three{
@@ -126,7 +144,7 @@
     grid-column-end: 2;
     width: 100%;
     height: 100%;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 
 #five{
@@ -136,7 +154,7 @@
     grid-column-end: 3;
     width: 100%;
     height: 100%;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 
 #six{
@@ -146,7 +164,7 @@
     grid-column-end: 4;
     width: 16.5rem;
     height: 100%;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 #seven{
     grid-row-start: 2;
@@ -164,7 +182,7 @@
     grid-column-end: 3;
     width: 100%;
     height: 80%;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 
 #nine{
@@ -174,7 +192,7 @@
     grid-column-end: 4;
     width: 16rem;
     height: 80%;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 
 #ten{
@@ -202,7 +220,7 @@ height: 80%;
     font-size: 30px;
     height: 10px;
     margin-bottom: 30px;
-    border-radius: 1%;
+    border-radius: 2%;
 }
 #fifteen{
     grid-row-start: 1;
@@ -319,7 +337,7 @@ height: 80%;
     margin-right: 50px;
 height: 100%;
 margin-top: 60px;
-border-radius: 1%;
+border-radius: 2%;
 margin-left: 48px;
 }
 #twentyeight{
@@ -502,12 +520,16 @@ margin-bottom: 10px;
 }
 
 #fourtynine{
-    height: 30px;
+    height: 20px;
     border: 2px solid #87CEFA;
     color: #87CEFA;
     font-weight: bold;
     position: relative;
     left: 840px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 85px;
 }
 
 #fifty{
@@ -515,8 +537,9 @@ margin-bottom: 10px;
     height: 200px;
 }
 #fiftyone{
-    background-color: teal;
+    background-color: white;
     display: flex;
+    height: 80px;
 }
 #fiftytwo{
     height: 60px;
@@ -525,5 +548,84 @@ margin-bottom: 10px;
         display: flex;
         position: relative;
         bottom: 30px;
+        margin-left: 10px;
 
+}
+#fiftyfour{
+    display: flex;
+    position: relative;
+    left: 60px;
+}
+
+#fiftyfive{
+    height: 30px;
+}
+#fiftysix{
+    display: flex;
+    height: 40px;
+}
+
+#fiftyseven{
+    color: black;
+    opacity: 0.4;
+    height: 15px;
+    border: 1px solid gray;
+    display: flex;
+    background-color: gray;
+    margin-left: 10px;
+}
+#fiftyeight{
+    display: flex;
+}
+#fiftynine{
+    color: gray;
+    margin-left: 10px;
+}
+#sixty{
+    color: black;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
+}
+#sixtyone{
+    color:#D3D3D3;
+    font-size: 10px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 10px;
+}
+#sixtythree{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#sixtyfour{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#sixtyfive{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#sixtysix{
+    color: #D3D3D3;
+}
+#sixtyseven{
+    width: 100%;
+    height: 220px;
+    border-radius: 2%;
+
+}
+#sixtyeight{
+    display: flex;
+}
+#sixtynine{
+    color: black;
+    margin-left: 10px;
+}
+#seventy{
+    color: #D3D3D3;
+    position: relative;
+    bottom: 35px;
+    left: 65px;
 }

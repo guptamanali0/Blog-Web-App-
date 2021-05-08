@@ -11,7 +11,9 @@
         "tdate":"/TODAY AT 11:54",
         "style":"STYLE",
         "adate":"/AUGUST 21 2017",
-        "reactheading":"5 Ways to a animate React app"
+        "reactheading":"5 Ways to a animate React App",
+        "reactdes":"Animation in ReactJs app is a popular topic and there are many ways to create different types of animations. Many developers create animation exclusively using css and adding classes to HTML tags. This is a great way and you should use it,if you want to create complex animation you can pay attentive to GreenSock .GreenSock is the most powerful animation platform .There are also a lot of libraries ,components for creating animation in react",
+        "reactad":"Joshu Tree Overnight Adventure"
 
     }
 ]

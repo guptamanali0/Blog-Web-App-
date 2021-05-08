@@ -64,7 +64,7 @@ return(
  
  <div id="ten">
  <p id="eleven">{item.job}</p>
- <p id="tweleve">10 Min read</p>
+ <p id="tweleve">{item.date}</p>
  </div>
 
  </div>
