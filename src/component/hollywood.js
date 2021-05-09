@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Thimage from './../images/Hollywood/3hline.png';
 import Logo1 from './../images/Hollywood/holly1.png'
 import Logo2 from './../images/Hollywood/holly2.jpg'

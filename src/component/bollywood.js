@@ -9,11 +9,8 @@ import Logo6 from './../images/Bollywood/b6.jpg'
 import Logo7 from './../images/Bollywood/b7.jpg'
 import Logo8 from './../images/Bollywood/b8.jpg'
 import Logo9 from './../images/Bollywood/b9.jpg'
-import {NavLink,Link} from 'react-router-dom'
-import {BrowserRouter,Route} from 'react-router-dom'
-import About from './about.js'
-import Course from './course.js'
-import Bollywoodcopy from './bollywoodcopy.js'
+import {Link} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 function Home(props){
   console.log(props)
 return(

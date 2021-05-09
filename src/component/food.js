@@ -15,11 +15,8 @@ import Logo12 from './../images/Food/f12.jpg'
 import Logo13 from './../images/Food/f13.jpg'
 import Logo14 from './../images/Food/f14.jpg'
 import Logo15 from './../images/Food/f15.jpg'
-import {NavLink,Link} from 'react-router-dom'
-import {BrowserRouter,Route} from 'react-router-dom'
-import About from './about.js'
-import Course from './course.js'
-import Copy from './copy.js'
+import {Link} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 function Home(props){
   console.log(props)
 return(

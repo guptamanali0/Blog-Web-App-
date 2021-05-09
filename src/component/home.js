@@ -17,8 +17,6 @@ import Logo14 from './../images/Home/image14.jpg'
 import Logo15 from './../images/Home/image15.jpg'
 import {NavLink,Link} from 'react-router-dom'
 import {BrowserRouter,Route} from 'react-router-dom'
-import About from './about.js'
-import Course from './course.js'
 import Copy from './copy.js'
 function Home(props){
   console.log(props)

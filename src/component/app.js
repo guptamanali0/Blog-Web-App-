@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
 import {BrowserRouter,Route} from 'react-router-dom'
-import Home from './home.js';
 import Coursejson from './../course.json'
-import Logo1 from './../images/Home/image3.jpg'
-import Heading from './heading.js'
 import Copy from './copy.js';
-import Course from './course.js';
-import About  from './about.js';
 import Bollywoodcopy  from './bollywoodcopy.js';
 import Technologycopy  from './technologycopy.js';
 import Hollywoodcopy  from './hollywoodcopy.js';
