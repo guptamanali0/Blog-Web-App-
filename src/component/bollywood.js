@@ -39,11 +39,11 @@ return(
  <div className="main4">
 <div className="main3">
 
-<Link to="/fitnesscopy" id="color">
+<Link to="/bollywoodcopy" id="color">
 <p id="fourteen">Latest Articles</p>
 </Link>
 
-<Link to="/fitnesscopy" id="color">
+<Link to="/foodcopy" id="color">
 <div className="seven">
 <img src={Logo1} id="thirteen"/>
 <div id="fifteen">

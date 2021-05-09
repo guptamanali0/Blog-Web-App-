@@ -32,12 +32,14 @@ function Hollywood(props){
 
 
 <div className="main9">
-         <p id="seventyfive">Bollywood</p>
+         <p id="seventyfive">Fitness</p>
          <hr id="seventysix"></hr>
 
 
 <div className="main10">
+    <Link to="/" id="color">
 < img src={Logo1} id="seventyseven"/>
+</Link>
 <div id="seventyeight">
 <h4 id="seventynine">{item.fitnessheading}</h4>
     <p id="eighty">{item.fintessheadingdescription}</p>
@@ -52,7 +54,9 @@ function Hollywood(props){
 <hr id="eightythree"></hr>
 
 <div className="main10">
+<Link to="/foodcopy" id="color">
 < img src={Logo2} id="seventyseven"/>
+</Link>
 <div id="seventyeight">
 <h4 id="seventynine">{item.fitnessheading}</h4>
     <p id="eighty">{item.fintessheadingdescription}</p>
@@ -67,7 +71,9 @@ function Hollywood(props){
 <hr id="eightythree"></hr>
 
 <div className="main10">
+<Link to="/bollywoodcopy" id="color">
 < img src={Logo3} id="seventyseven"/>
+</Link>
 <div id="seventyeight">
 <h4 id="seventynine">{item.fitnessheading}</h4>
     <p id="eighty">{item.fintessheadingdescription}</p>
@@ -81,7 +87,7 @@ function Hollywood(props){
 </div>
 <hr id="eightythree"></hr>
 
-
+<Link to="/" id="color">
 <div className="main10">
 <p id="eightyfour">LOAD MORE</p>
 <img src={darrow} id="ninty"/>
@@ -96,8 +102,10 @@ function Hollywood(props){
 
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
+<Link to="/technologycopy" id="color">
 <div className="main10">
 < img src={Logo5} id="seventyseven"/>
 <div id="seventyeight">
@@ -111,8 +119,10 @@ function Hollywood(props){
     </div>
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
+<Link to="/" id="color">
 <div className="main10">
 < img src={Logo6} id="seventyseven"/>
 <div id="seventyeight">
@@ -126,8 +136,10 @@ function Hollywood(props){
     </div>
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
+<Link to="/" id="color">
 <div className="main10">
 < img src={Logo7} id="seventyseven"/>
 <div id="seventyeight">
@@ -141,6 +153,7 @@ function Hollywood(props){
     </div>
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
 
