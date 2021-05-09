@@ -46,7 +46,7 @@ return(
 <div id="fifteen">
  <h3>{item.bheading}</h3>
  <p>{item.bheadingdescription}</p>
- <div id="sixteen">
+ <div id="shift">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
@@ -57,7 +57,7 @@ return(
 <div id="ninteen">
  <h3>{item.bheading}</h3>
  <p>{item.bheadingdescription}</p>
- <div id="sixteen">
+ <div id="shift">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
@@ -67,7 +67,7 @@ return(
 <div id="twentytwo">
  <h3>{item.bheading}</h3>
  <p>{item.bheadingdescription}</p>
- <div id="sixteen">
+ <div id="shift">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
@@ -77,7 +77,7 @@ return(
 <div id="twentythree">
  <h3>{item.bheading}</h3>
  <p>{item.bheadingdescription}</p>
- <div id="sixteen">
+ <div id="shift">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
@@ -111,7 +111,7 @@ return(
 </div>
 <div id="thirtyfour">
 <h4>{item.bheading}</h4>
-<div id="thirtyeight">
+<div id="extra">
 <p id="thirtynine">{item.job}</p>
 <p id="fourty">{item.date}</p>
 </div>
@@ -123,7 +123,7 @@ return(
 </div>
 <div id="fourtyone">
 <h4>{item.bheading}</h4>
-<div id="thirtyeight">
+<div id="extra">
 <p id="thirtynine">{item.job}</p>
 <p id="fourty">{item.date}</p>
 </div>
@@ -137,7 +137,7 @@ return(
 </div>
 <div id="fourtytwo">
 <h4>{item.bheading}</h4>
-<div id="thirtyeight">
+<div id="extra">
 <p id="thirtynine">{item.job}</p>
 <p id="fourty">{item.date}</p>
 </div>

@@ -204,7 +204,6 @@ return(
 
 
 
-
 <div id="thirtytwo">
 <img src={Logo15} id="thirtyseven"/>
 </div>
