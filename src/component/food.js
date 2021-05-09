@@ -57,8 +57,9 @@ return(
 <p id="fourteen">The Latest</p>
 
   <div className="six">
-
+<Link to="/technologycopy" id="color">
  <img id="four" src={Logo4}/>
+ </Link>
  <div id="seven">
  <h3>{item.fastfoodheading}</h3>
  <p>{item.fastfoodheadingdescription}</p>
@@ -67,8 +68,9 @@ return(
  <p id="tweleve">{item.date}</p>
  </div>
  </div>
-
+ <Link to="/fitnesscopy" id="color">
  <img id="five" src={Logo5}/>
+ </Link>
  <div id="eight">
  <h3>{item.fastfoodheading}</h3>
  <p>{item.fastfoodheadingdescription}</p>
@@ -79,7 +81,7 @@ return(
  </div>
 
  </div>
-
+ <Link to="/" id="color">
  <img id="six" src={Logo6}/>
  <div id="nine">
  <h3>{item.fastfoodheading}</h3>
@@ -89,10 +91,14 @@ return(
  <p id="tweleve">{item.date}</p>
  </div>
  </div>
+ </Link>
 </div>
-
+<Link to="/hollywoodcopy" id="color">
 <p id="fourteen">Latest Articles</p>
+<hr id="only"></hr>
+</Link>
 
+<Link to="/" id="color">
 <div className="seven">
 <img src={Logo7} id="thirteen"/>
 <div id="fifteen">
@@ -103,8 +109,9 @@ return(
  <p id="tweleve">{item.date}</p>
  </div>
 </div>
-
+<Link to="/bollywoodcopy" id="color">
 <img src={Logo8} id="eighteen"/>
+</Link>
 <div id="ninteen">
  <h3>{item.icecreamheading}</h3>
  <p>{item.icecreamdescription}</p>
@@ -114,7 +121,9 @@ return(
  </div>
 </div>
 
+<Link to="/" id="color">
 <img src={Logo9} id="twenty"/>
+</Link>
 <div id="twentytwo">
  <h3>{item.icecreamheading}</h3>
  <p>{item.icecreamdescription}</p>
@@ -123,8 +132,9 @@ return(
  <p id="tweleve">{item.date}</p>
  </div>
 </div>
-
+<Link to="/technologycopy" id="color">
 <img src={Logo10} id="twentyone"/>
+</Link>
 <div id="twentythree">
  <h3>{item.icecreamheading}</h3>
  <p>{item.icecreamdescription}</p>
@@ -138,10 +148,13 @@ return(
 <div id="twentyfour">
   <h1 id="twentyfive">Advertisment</h1>
 </div>
+<Link to="/fitnesscopy" id="color">
 <div id="twentyseven">
 <div>Top </div>
 <div id="space">Posts</div>
+
 </div>
+</Link>
 <img src={Logo15} id="twentysix"/>
 </div>
 
@@ -195,7 +208,10 @@ return(
 </div>
 
 </div>
+<Link to="/" id="color">
 <h1>Latest Stories</h1>
+<hr></hr>
+</Link>
 <div className="nine">
 
 <div id="fourtythree">
@@ -227,11 +243,12 @@ return(
 <p id="eleven">{item.update}</p>
 <p id="tweleve">{item.adate}</p>
 </div>
-<Link to="/bollywoodcopy" id="fourtyseven">Load More</Link>
+<Link to="/" id="fourtyseven">Load More</Link>
 </div>
 
 
 </div>
+</Link>
 
 </div>
  </>

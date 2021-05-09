@@ -238,6 +238,7 @@ width: 100%;
 margin-top: 50px;
 margin-left: 10px;
 height: 80%;
+border-radius: 2%;
 }
 
 #fourteen{
@@ -273,6 +274,7 @@ height: 80%;
     margin-top: 50px;
     margin-left: 10px;
     height: 80%;
+    border-radius: 2%;
 
 }
 #ninteen{
@@ -296,6 +298,7 @@ height: 80%;
     height: 80%;
     grid-column-start: 1;
     grid-column-end: 2;
+    border-radius: 2%;
 
 }
 
@@ -308,6 +311,7 @@ height: 80%;
     height: 80%;
     grid-column-start: 1;
     grid-column-end: 2;
+    border-radius: 2%;
 
 }
 #twentytwo{
@@ -330,6 +334,7 @@ height: 80%;
     height: 100%;
     grid-column-start: 2;
     grid-column-end: 3;
+    border-radius: 2%;
 }
 
 #twentyfour{
@@ -376,6 +381,7 @@ margin-bottom: 10px;
     margin-right: 120px;
     width: 95%;
     height: 98%;
+    border-radius: 2%;
 }
 
 #twentynine{
@@ -386,6 +392,7 @@ margin-bottom: 10px;
     width: 100%;
     height: 100%;
     margin-top: 10px;
+    
 }
 
 #thirty{
@@ -394,6 +401,7 @@ margin-bottom: 10px;
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 20px;
+    
 }
 
 #thirtyone{
@@ -402,6 +410,7 @@ margin-bottom: 10px;
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 10px;
+    
 }
 
 
@@ -418,6 +427,7 @@ margin-bottom: 10px;
     width: 100%;
     margin-top: 10px;
     height: 90%;
+    border-radius: 5%;
 
 }
 #thirtyfour{
@@ -429,12 +439,14 @@ margin-bottom: 10px;
     height: 50%;
     margin-top: 20px;
     margin-left: 20px;
+    
 }
 
 #thirtyfive{
     width: 100%;
     margin-top: 10px;
     height: 90%;
+    border-radius: 5%;
 
 }
 
@@ -456,6 +468,8 @@ margin-bottom: 10px;
     width: 100%;
     height: 90%;
     margin-top: 10px;
+    border-radius: 5%;
+    
 
 }
 #thirtyeight{
@@ -464,6 +478,7 @@ margin-bottom: 10px;
     bottom: 25px;
     height: 68%;
     margin-top: 35px;
+    
 }
 
 #thirtynine{
@@ -485,6 +500,7 @@ margin-bottom: 10px;
     height: 50%;
     margin-top: 20px;
     margin-left: 20px;
+    
 
 }
 
