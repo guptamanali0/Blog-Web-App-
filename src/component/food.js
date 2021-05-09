@@ -87,7 +87,7 @@ return(
  <h3>{item.fastfoodheading}</h3>
  <p>{item.fastfoodheadingdescription}</p>
  <div id="ten">
- <p id="eleven">{item.job}</p>
+ <p id="eleven">{item.update}</p>
  <p id="tweleve">{item.date}</p>
  </div>
  </div>
