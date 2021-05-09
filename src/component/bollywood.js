@@ -89,7 +89,7 @@ return(
 </div>
 <div id="twentyseven">
 <div>Top </div>
-<div id="margins">Posts</div>
+<div id="space">Posts</div>
 </div>
 <img src={Logo5} id="twentysix"/>
 </div>

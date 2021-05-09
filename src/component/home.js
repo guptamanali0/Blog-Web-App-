@@ -160,7 +160,7 @@ return(
 <Link to="/Foodcopy" id="color">
 <div id="twentyseven">
 <div>Top </div>
-<div id="margins">Posts</div>
+<div id="space">Posts</div>
 </div>
 </Link>
 <img src={Logo11} id="twentysix"/>
