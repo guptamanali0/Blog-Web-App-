@@ -1,6 +1,14 @@
 import React from 'react'
 import './../styles/page.css'
-import Logo1 from './../images/image3.jpg'
+import Logo1 from './../images/Bollywood/b1.jpg'
+import Logo2 from './../images/Bollywood/b2.jpg'
+import Logo3 from './../images/Bollywood/b3.webp'
+import Logo4 from './../images/Bollywood/b4.jpg'
+import Logo5 from './../images/Bollywood/b5.jpg'
+import Logo6 from './../images/Bollywood/b6.jpg'
+import Logo7 from './../images/Bollywood/b7.jpg'
+import Logo8 from './../images/Bollywood/b8.jpg'
+import Logo9 from './../images/Bollywood/b9.jpg'
 import {NavLink,Link} from 'react-router-dom'
 import {BrowserRouter,Route} from 'react-router-dom'
 import About from './about.js'
@@ -31,43 +39,47 @@ return(
  <div className="main4">
 <div className="main3">
 
+<Link to="/fitnesscopy" id="color">
 <p id="fourteen">Latest Articles</p>
+</Link>
 
+<Link to="/fitnesscopy" id="color">
 <div className="seven">
 <img src={Logo1} id="thirteen"/>
 <div id="fifteen">
- <h3>{item.heading}</h3>
- <p>{item.description}</p>
+ <h3>{item.bheading}</h3>
+ <p>{item.bheadingdescription}</p>
  <div id="sixteen">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
 </div>
 
-<img src={Logo1} id="eighteen"/>
+
+<img src={Logo2} id="eighteen"/>
 <div id="ninteen">
- <h3>{item.heading}</h3>
- <p>{item.description}</p>
+ <h3>{item.bheading}</h3>
+ <p>{item.bheadingdescription}</p>
  <div id="sixteen">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
 </div>
 
-<img src={Logo1} id="twenty"/>
+<img src={Logo3} id="twenty"/>
 <div id="twentytwo">
- <h3>{item.heading}</h3>
- <p>{item.description}</p>
+ <h3>{item.bheading}</h3>
+ <p>{item.bheadingdescription}</p>
  <div id="sixteen">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
  </div>
 </div>
 
-<img src={Logo1} id="twentyone"/>
+<img src={Logo4} id="twentyone"/>
 <div id="twentythree">
- <h3>{item.heading}</h3>
- <p>{item.description}</p>
+ <h3>{item.bheading}</h3>
+ <p>{item.bheadingdescription}</p>
  <div id="sixteen">
 <p id="eleven">{item.job}</p>
  <p id="tweleve">{item.date}</p>
@@ -82,15 +94,15 @@ return(
 <div>Top </div>
 <div>Posts</div>
 </div>
-<img src={Logo1} id="twentysix"/>
+<img src={Logo5} id="twentysix"/>
 </div>
 
 
 <div className="eight">
-  <img src={Logo1} id="twentyeight"/>
+  <img src={Logo6} id="twentyeight"/>
 
   <div id="twentynine">
-<h3>{item.heading}</h3>
+<h3>{item.bheading}</h3>
 <div id="sixteen">
 <p id="eleven">{item.job}</p>
 <p id="twelve">{item.date}</p>
@@ -98,10 +110,10 @@ return(
 </div>
 
 <div id="thirty">
-<img src={Logo1} id="thirtythree"/>
+<img src={Logo7} id="thirtythree"/>
 </div>
 <div id="thirtyfour">
-<h4>{item.heading}</h4>
+<h4>{item.bheading}</h4>
 <div id="thirtyeight">
 <p id="thirtynine">{item.job}</p>
 <p id="fourty">{item.date}</p>
@@ -110,10 +122,10 @@ return(
 
 
 <div id="thirtyone">
-<img src={Logo1} id="thirtyfive"/>
+<img src={Logo8} id="thirtyfive"/>
 </div>
 <div id="fourtyone">
-<h4>{item.heading}</h4>
+<h4>{item.bheading}</h4>
 <div id="thirtyeight">
 <p id="thirtynine">{item.job}</p>
 <p id="fourty">{item.date}</p>
@@ -124,10 +136,10 @@ return(
 
 
 <div id="thirtytwo">
-<img src={Logo1} id="thirtyseven"/>
+<img src={Logo9} id="thirtyseven"/>
 </div>
 <div id="fourtytwo">
-<h4>{item.heading}</h4>
+<h4>{item.bheading}</h4>
 <div id="thirtyeight">
 <p id="thirtynine">{item.job}</p>
 <p id="fourty">{item.date}</p>
@@ -140,7 +152,7 @@ return(
 
 
 </div>
-
+</Link>
 </div>
 </div>
  </>

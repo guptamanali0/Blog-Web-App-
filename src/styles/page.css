@@ -63,6 +63,10 @@ column-gap: 70px;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(3 200px);
 }
+#color{
+    color: black;
+    text-decoration: none;
+}
 
 .two{
     text-align: center;
@@ -782,4 +786,10 @@ grid-column-end: 2;
     position: relative;
     top: 75px;
     right: 110px;
+}
+#only{
+    color: #D3D3D3;
+}
+#margin{
+    margin-left: 10px;
 }

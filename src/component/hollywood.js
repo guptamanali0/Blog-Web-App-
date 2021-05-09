@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink,Link} from 'react-router-dom'
-import Thimage from './../images/3hline.png';
+import Thimage from './../images/Hollywood/3hline.png';
 import Logo1 from './../images/Hollywood/holly1.png'
 import Logo2 from './../images/Hollywood/holly2.jpg'
 import Logo3 from './../images/Hollywood/holly3.png'
@@ -20,24 +20,26 @@ function Hollywood(props){
 {
  props.courselist.map(item=>(
      <>
-     <div className="main8">
 
+     <div className="main8">
          <div id="seventyone">
          <p id="seventytwo">The Siren</p>
-         <NavLink to="/bollywoodcopy">
+         <Link to="/bollywoodcopy">
          <img src={Thimage} id="seventythree"/>
-         </NavLink>
+         </Link>
          <hr id="seventyfour"></hr>
          </div>
+        
 
-
+         
 <div className="main9">
-         <p id="seventyfive">Bollywood</p>
+         <p id="seventyfive">Hollywood</p>
          <hr id="seventysix"></hr>
 
-
 <div className="main10">
+<Link to="/foodcopy" id="color">
 < img src={Logo1} id="seventyseven"/>
+</Link>
 <div id="seventyeight">
 <h4 id="seventynine">{item.spiderman}</h4>
     <p id="eighty">{item.spidermandescription}</p>
@@ -52,7 +54,9 @@ function Hollywood(props){
 <hr id="eightythree"></hr>
 
 <div className="main10">
+<Link to="/" id="color">
 < img src={Logo2} id="seventyseven"/>
+</Link>
 <div id="seventyeight">
 <h4 id="seventynine">{item.blackpanther}</h4>
     <p id="eighty">{item.blackpantherdescription}</p>
@@ -67,7 +71,9 @@ function Hollywood(props){
 <hr id="eightythree"></hr>
 
 <div className="main10">
+<Link to="/bollywoodcopy" id="color">
 < img src={Logo3} id="seventyseven"/>
+</Link>
 <div id="seventyeight">
 <h4 id="seventynine">{item.ironman}</h4>
     <p id="eighty">{item.ironmandescription}</p>
@@ -79,9 +85,10 @@ function Hollywood(props){
     </div>
 
 </div>
+
 <hr id="eightythree"></hr>
 
-
+<Link to="/fitnesscopy" id="color">
 <div className="main10">
 <p id="eightyfour">LOAD MORE</p>
 <img src={darrow} id="ninty"/>
@@ -96,8 +103,11 @@ function Hollywood(props){
 
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
+
+<Link to="/" id="color">
 <div className="main10">
 < img src={Logo5} id="seventyseven"/>
 <div id="seventyeight">
@@ -111,8 +121,11 @@ function Hollywood(props){
     </div>
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
+
+<Link to="/fitnesscopy" id="color">
 <div className="main10">
 < img src={Logo6} id="seventyseven"/>
 <div id="seventyeight">
@@ -126,8 +139,10 @@ function Hollywood(props){
     </div>
 
 </div>
+</Link>
 <hr id="eightythree"></hr>
 
+<Link to="/foodcopy" id="color">
 <div className="main10">
 < img src={Logo7} id="seventyseven"/>
 <div id="seventyeight">
@@ -141,6 +156,8 @@ function Hollywood(props){
     </div>
 
 </div>
+</Link>
+
 <hr id="eightythree"></hr>
 
 
@@ -149,15 +166,13 @@ function Hollywood(props){
 </div>
 
 
-
      </div>
-
-
 
 
 
       </>
  )
+
  )
 }
 </>

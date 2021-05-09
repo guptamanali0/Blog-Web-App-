@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink,Link} from 'react-router-dom'
-import Thimage from './../images/3hline.png';
+import Thimage from './../images/Fitness/3hline.png';
 import Logo1 from './../images/Fitness/ft1.jpg'
 import Logo2 from './../images/Fitness/ft2.jpg'
 import Logo3 from './../images/Fitness/ft3.webp'

@@ -1,20 +1,20 @@
 import React from 'react'
 import './../styles/page.css'
-import Logo4 from './../images/image6.jpg'
+import Logo4 from './../images/Technology/t1.jpg'
+import Logo1 from './../images/Technology/reactanimation.png'
+import Logo2 from './../images/Technology/reactjscode.png'
+import Logo3 from './../images/Technology/t2.jpg'
+import Logo5 from './../images/Technology/t3.jpg'
 import {NavLink,Link} from 'react-router-dom'
 import {BrowserRouter,Route} from 'react-router-dom'
 import About from './about.js'
 import Course from './course.js'
-import Logo2 from './../images/reactanimation.png'
-import Logo3 from './../images/reactjscode.png'
-import uimage from './../images/urlogo.png'
-import cimage from './../images/clappinghand.jpg'
+import timage from './../images/Technology/twitter image.jpg'
+import fimage from './../images/Technology/fblogo.png'
+import image from './../images/Technology/iglogo1.jpg'
+import yimage from './../images/Technology/youtubelogo.png'
+import uimage from './../images/Technology/urlogo.png'
 
-
-import timage from './../images/twitter image.jpg'
-import fimage from './../images/fblogo.png'
-import iimage from './../images/iglogo1.jpg'
-import yimage from './../images/youtubelogo.png'
 
 function Technology(props){
 return(
@@ -30,7 +30,8 @@ return(
  <p id="fourtynine">Get Started</p>
  </Link>
  </div>
-
+ 
+<Link to="/bollywoodcopy" id="color">
  <div className="main5">
  <h1>{item.reactheading}</h1>
 
@@ -45,8 +46,8 @@ return(
  <Link to="/bollywoodcopy">
  <div id="fiftyfour">
    <img src={fimage} id="fiftyfive"/>
+   <img src={image} id="fiftyfive"/>
    <img src={timage} id="fiftyfive"/>
-   <img src={iimage} id="fiftyfive"/>
    <img src={yimage} id="fiftyfive"/>
  </div>
  </Link>
@@ -57,11 +58,11 @@ return(
    </div>
    </div>
 
- <img  src={Logo2} id="fifty"/>
+ <img  src={Logo1} id="fifty"/>
  <p>{item.reactdes}</p>
 
  <h3>Let's talk about them</h3>
- <img  src={Logo3} id="fifty"/>
+ <img  src={Logo2} id="fifty"/>
 
  <div id="fiftysix">
    <p id="fiftyseven">React</p>
@@ -88,7 +89,7 @@ return(
   <div id="sixtythree">
     <p id="sixtysix">Also tagged react js</p>
     <img src={Logo4} id="sixtyseven"/>
-    <h2>{item.reactad}</h2>
+    <h3>{item.technologyheading}</h3>
     <div id="sixtyeight">
     <img  src={uimage} id="fiftytwo"/>
    <p id="sixtynine">Dmitry Nazahenko</p>
@@ -99,8 +100,8 @@ return(
 
 <div id="sixtyfour">
   <p id="sixtysix">Related Reads</p>
-  <img src={Logo4} id="sixtyseven"/>
-  <h2>{item.reactad}</h2>
+  <img src={Logo3} id="sixtyseven"/>
+  <h3>{item.technologyheading}</h3>
     <div id="sixtyeight">
     <img  src={uimage} id="fiftytwo"/>
    <p id="sixtynine">Dmitry Nazahenko</p>
@@ -110,8 +111,8 @@ return(
 
 <div id="sixtyfive">
 <p id="sixtysix">Related Reads</p>
-<img src={Logo4} id="sixtyseven"/>
-<h2>{item.reactad}</h2>
+<img src={Logo5} id="sixtyseven"/>
+<h3>{item.technologyheading}</h3>
     <div id="sixtyeight">
     <img  src={uimage} id="fiftytwo"/>
    <p id="sixtynine">Dmitry Nazahenko</p>
@@ -123,6 +124,7 @@ return(
 
    </div>
  </div>
+ </Link>
 
 
 

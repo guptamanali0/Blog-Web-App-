@@ -3,7 +3,7 @@ import {NavLink,Link} from 'react-router-dom'
 import {BrowserRouter} from 'react-router-dom'
 import Basic from './home.js';
 import Coursejson from './../course.json'
-import Logo1 from './../images/image3.jpg'
+import Logo1 from './../images/Home/image3.jpg'
 import Bollywood from './bollywood.js'
 
 function Heading(){
