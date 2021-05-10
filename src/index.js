@@ -4,6 +4,8 @@ import {BrowserRouter , Route} from 'react-router-dom'
 import App from './component/app';
 
 ReactDOM.render(
-    <App />,
+  <BrowserRouter>
+    <App />
+    </BrowserRouter>,
   document.getElementById('root')
 );
