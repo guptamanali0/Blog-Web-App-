@@ -41,7 +41,6 @@ return(
 </Link>
 
 <Link to="/foodcopy" id="color">
-  <h1>mnaa</h1>
 <div className="seven">
 <img src={Logo1} id="thirteen"/>
 <div id="fifteen">
