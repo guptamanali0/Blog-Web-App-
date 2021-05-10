@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter,Route} from 'react-router-dom'
+import {BrowserRouter , Route} from 'react-router-dom'
 import Coursejson from './../course.json'
 import Copy from './copy.js';
 import Bollywoodcopy  from './bollywoodcopy.js';
