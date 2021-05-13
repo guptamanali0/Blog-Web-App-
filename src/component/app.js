@@ -25,7 +25,6 @@ class App extends Component{
    <Route path="/foodcopy" component={Foodcopy} exact/>
    <Route path="/fitnesscopy" component={Fitnesscopy} exact/>
    </BrowserRouter>
-    
 
 
         </>
