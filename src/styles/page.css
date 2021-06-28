@@ -822,3 +822,18 @@ grid-column-end: 2;
     margin-top: 35px;
 
 }
+#rotate{
+    transform: rotate(-90deg);
+    position: relative;
+    right: 100px;
+    top: 35px;
+    font-size: 20px;
+}
+#siren{
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    bottom: 25px;
+    right: 30px;
+
+}

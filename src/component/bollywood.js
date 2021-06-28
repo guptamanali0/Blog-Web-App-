@@ -21,7 +21,8 @@ return(
  props.courselist.map(item=>(
  <>
   <div className="two">
-            <h1>The Siren</h1>
+            <p id="rotate">The</p>
+            <span id="siren">Siren</span>
             </div>
    <div className="three">
           <Route>

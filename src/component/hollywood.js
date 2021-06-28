@@ -13,7 +13,6 @@ import darrow from './../images/downwordarrow.png'
 
 function Hollywood(props){
     console.log("manali");
-    console.log(props);
     return(
         <>
 

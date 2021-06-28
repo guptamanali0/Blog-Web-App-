@@ -24,11 +24,12 @@ function Hollywood(props){
 
          <div id="seventyone">
          <p id="seventytwo">The Siren</p>
-         <NavLink to="/bollywoodcopy">
+         <Link to="/bollywoodcopy">
          <img src={Thimage} id="seventythree"/>
-         </NavLink>
+         </Link>
          <hr id="seventyfour"></hr>
          </div>
+        
 
 
 <div className="main9">

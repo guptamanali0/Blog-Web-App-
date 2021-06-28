@@ -23,7 +23,11 @@ return(
  props.courselist.map(item=>(
  <>
  <div id="fourtyeight">
- <h1>The Siren</h1>
+ {/* <h1>The Siren</h1> */}
+ <div className="two">
+            <p id="rotate">The</p>
+            <span id="siren">Siren</span>
+            </div>
  <Link to="/bollywoodcopy" id="nav">
  <p id="fourtynine">Get Started</p>
  </Link>
